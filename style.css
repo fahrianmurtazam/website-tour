@@ -1,0 +1,62 @@
+/* sosmed */
+.sosmed {
+  margin: 10px auto;
+}
+
+.my-sosmed {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+li .WA {
+  background-image: url(img/sosmed/wha.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  text-indent: -9999px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+li .IG {
+  background-image: url(img/sosmed/ig.png);
+  width: 47px;
+  height: 47px;
+  background-position: center;
+  background-size: cover;
+  text-indent: -9999px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+li .TG {
+  background-image: url(img/sosmed/tele.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  text-indent: -9999px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+li .TW {
+  background-image: url(img/sosmed/twitter.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  text-indent: -9999px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+li {
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 45px;
+}
